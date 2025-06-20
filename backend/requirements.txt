@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+openai
+langchain
+qdrant-client
+unstructured
+pyautogen
+sqlalchemy
+pydantic
+psycopg2
+dotenv
