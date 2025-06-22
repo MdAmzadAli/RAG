@@ -13,7 +13,7 @@ CLOUDINARY_CLOUD_NAME=
 CLOUDINARY_API_KEY=
 CLOUDINARY_API_SECRET=
 OPENAI_API_KEY=
-
+```
 
 - Create a "config.json" file at root level inside backend folder
 and add this piece of code in it:
