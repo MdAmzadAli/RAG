@@ -4,7 +4,7 @@ After pulling the repo locally, Follow this steps:
 
 - Create a ".env" file at root level inside of "backend" folder
 - add this env variables listed below:
-<pre> ```env QDRANT_API_KEY= QDRANT_URL= DATABASE_URL= JWT_SECRET_KEY= CLOUDINARY_CLOUD_NAME= CLOUDINARY_API_KEY= CLOUDINARY_API_SECRET= OPENAI_API_KEY= ``` </pre>
+```env QDRANT_API_KEY= QDRANT_URL= DATABASE_URL= JWT_SECRET_KEY= CLOUDINARY_CLOUD_NAME= CLOUDINARY_API_KEY= CLOUDINARY_API_SECRET= OPENAI_API_KEY= ``` 
 
 - Create a "config.json" file at root level inside backend folder
 and add this piece of code in it:
