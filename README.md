@@ -36,7 +36,7 @@ and add this piece of code in it:
 
 - Open the "frontend" folder in terminal
 - run "npm install"
-- npm run dev
+- run "npm run dev"
 
 
 
