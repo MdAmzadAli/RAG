@@ -17,14 +17,14 @@ OPENAI_API_KEY=
 
 - Create a "config.json" file at root level inside backend folder
 and add this piece of code in it:
-
+```
 [
   {
     "model": "gpt-4",
     "api_key": "Your OpenAI API Key"
   }
 ]
-
+```
 2) For "backend" folder (use sql database only)
 
 - Open "backend" folder in your terminal
