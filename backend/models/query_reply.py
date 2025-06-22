@@ -1,7 +1,7 @@
 from sqlalchemy import Column,String,ForeignKey,DateTime,Text
 from sqlalchemy.orm import relationship
 from .base import Base
-from backend.helper.generate_uuid import generate_uuid
+from helper.generate_uuid import generate_uuid
 from datetime import datetime,timezone
 
 

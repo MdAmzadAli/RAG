@@ -1,7 +1,7 @@
 from sqlalchemy import Column,Integer,String,ForeignKey,DateTime
 from sqlalchemy.orm import relationship
 from .base import Base
-from backend.helper.generate_uuid import generate_uuid
+from helper.generate_uuid import generate_uuid
 from datetime import datetime,timezone
 
 
@@ -16,4 +16,4 @@ class File(Base):
     user_id=Column(String,ForeignKey("users.id"))
     user=relationship("User",back_populates="files")
 
-    queries=relationship("QueryReply",back_populates="file",cascade="all delete-orphan")
+    queries=relationship("QueryReply",back_populates="file",cascade="all, delete-orphan")
